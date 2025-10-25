@@ -19,10 +19,11 @@ setup(
     description='TODO: Package description',
     license='TODO: License declaration',
     tests_require=['pytest'],
-    include_package_data=True,
     entry_points={
         'console_scripts': [
             'joy_to_twist_node = robot_control.JoyToMove:main',
+            'auto_move_node = robot_control.Automove:main',
+            'esp_connect_node = robot_control.espConnect:main',
         ],
     },
 )

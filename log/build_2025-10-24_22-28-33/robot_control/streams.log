@@ -1,0 +1,17 @@
+[0.366s] Invoking command in '/home/yoyo/ros2/app-002/build/robot_control': PYTHONPATH=/home/yoyo/ros2/app-002/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yoyo/ros2/app-002/install/robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yoyo/ros2/app-002/build/robot_control/build --no-deps symlink_data
+[0.530s] running develop
+[0.628s] running egg_info
+[0.629s] writing robot_control.egg-info/PKG-INFO
+[0.629s] writing dependency_links to robot_control.egg-info/dependency_links.txt
+[0.629s] writing entry points to robot_control.egg-info/entry_points.txt
+[0.629s] writing requirements to robot_control.egg-info/requires.txt
+[0.629s] writing top-level names to robot_control.egg-info/top_level.txt
+[0.630s] reading manifest file 'robot_control.egg-info/SOURCES.txt'
+[0.630s] writing manifest file 'robot_control.egg-info/SOURCES.txt'
+[0.631s] running build_ext
+[0.631s] Creating /home/yoyo/ros2/app-002/install/robot_control/lib/python3.10/site-packages/robot-control.egg-link (link to .)
+[0.632s] Installing joy_to_twist_node script to /home/yoyo/ros2/app-002/install/robot_control/lib/robot_control
+[0.632s] 
+[0.632s] Installed /home/yoyo/ros2/app-002/build/robot_control
+[0.632s] running symlink_data
+[0.649s] Invoked command in '/home/yoyo/ros2/app-002/build/robot_control' returned '0': PYTHONPATH=/home/yoyo/ros2/app-002/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yoyo/ros2/app-002/install/robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yoyo/ros2/app-002/build/robot_control/build --no-deps symlink_data

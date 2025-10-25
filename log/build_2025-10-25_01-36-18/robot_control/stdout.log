@@ -1,0 +1,37 @@
+running develop
+Removing /home/yoyo/ros2/app-002/install/robot_control/lib/python3.10/site-packages/robot-control.egg-link (link to .)
+running egg_info
+writing ../../build/robot_control/robot_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_control/robot_control.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_control/robot_control.egg-info/entry_points.txt
+writing requirements to ../../build/robot_control/robot_control.egg-info/requires.txt
+writing top-level names to ../../build/robot_control/robot_control.egg-info/top_level.txt
+reading manifest file '../../build/robot_control/robot_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_control/robot_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/yoyo/ros2/app-002/build/robot_control/build
+creating /home/yoyo/ros2/app-002/build/robot_control/build/lib
+creating /home/yoyo/ros2/app-002/build/robot_control/build/lib/robot_control
+copying robot_control/JoyToMove.py -> /home/yoyo/ros2/app-002/build/robot_control/build/lib/robot_control
+copying robot_control/__init__.py -> /home/yoyo/ros2/app-002/build/robot_control/build/lib/robot_control
+copying robot_control/AutoMove.py -> /home/yoyo/ros2/app-002/build/robot_control/build/lib/robot_control
+running install
+running install_lib
+creating /home/yoyo/ros2/app-002/install/robot_control/lib/python3.10/site-packages/robot_control
+copying /home/yoyo/ros2/app-002/build/robot_control/build/lib/robot_control/JoyToMove.py -> /home/yoyo/ros2/app-002/install/robot_control/lib/python3.10/site-packages/robot_control
+copying /home/yoyo/ros2/app-002/build/robot_control/build/lib/robot_control/__init__.py -> /home/yoyo/ros2/app-002/install/robot_control/lib/python3.10/site-packages/robot_control
+copying /home/yoyo/ros2/app-002/build/robot_control/build/lib/robot_control/AutoMove.py -> /home/yoyo/ros2/app-002/install/robot_control/lib/python3.10/site-packages/robot_control
+byte-compiling /home/yoyo/ros2/app-002/install/robot_control/lib/python3.10/site-packages/robot_control/JoyToMove.py to JoyToMove.cpython-310.pyc
+byte-compiling /home/yoyo/ros2/app-002/install/robot_control/lib/python3.10/site-packages/robot_control/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/yoyo/ros2/app-002/install/robot_control/lib/python3.10/site-packages/robot_control/AutoMove.py to AutoMove.cpython-310.pyc
+running install_data
+copying resource/robot_control -> /home/yoyo/ros2/app-002/install/robot_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/yoyo/ros2/app-002/install/robot_control/share/robot_control
+copying launch/launch_me.py -> /home/yoyo/ros2/app-002/install/robot_control/share/robot_control/launch
+running install_egg_info
+Copying ../../build/robot_control/robot_control.egg-info to /home/yoyo/ros2/app-002/install/robot_control/lib/python3.10/site-packages/robot_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing auto_move_node script to /home/yoyo/ros2/app-002/install/robot_control/lib/robot_control
+Installing joy_to_twist_node script to /home/yoyo/ros2/app-002/install/robot_control/lib/robot_control
+writing list of installed files to '/home/yoyo/ros2/app-002/build/robot_control/install.log'

@@ -1,1 +1,0 @@
-/home/yoyo/ros2/app-002/src/robot_control/setup.py
